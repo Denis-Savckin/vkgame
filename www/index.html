@@ -6,12 +6,17 @@
 		<title>html 5 page</title>
 	</head>
 <body>
+	<button onclick='go()'>TEST</button>
 <script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
 
 <script type="text/javascript">
 
 var status = false;
 
+function go(){
+	document.write('qq');
+}
+	
 var getUserName = function(){
 	  VK.init(function() { 
 	     console.log('inited');
